@@ -1,0 +1,123 @@
+﻿
+
+
+
+<html>
+<head>
+<title>Lord Registration Form</title>
+<meta charset="utf-8" />
+<style>
+ul{
+list-style-type:none;
+padding:0%;
+width:100%;
+margin-left:auto;
+margin-right:auto;
+
+overflow:hidden;
+margin-top:0%;
+}
+li{
+width:33%;
+float:left;
+text-align:center;
+border-right:groove;
+overflow:hidden;
+}
+li:last-child
+{
+border-right:none;
+}
+li a{
+display:block;
+color:black;
+font-size:2em;
+text-decoration:none;
+padding:0em 0em 0em 1em;
+}
+li a:hover:not(:active){
+background-color:black;
+color:white;
+}
+li a:active{
+background-color:cyan;
+color:black;
+}
+.Button:hover:not(:active){
+background-color:black;
+color:white;
+}
+.Button:active{
+background-color:darkred;
+color:black;
+}
+body	{
+		
+	}
+li a.active{	background-color:black;
+  		color:white;
+		
+	}
+p.Margin{margin:0cm 0cm .5cm 1cm;
+	}
+
+</style>
+</head>
+<body>
+<nav>
+<ul>
+<li><a class="active" href="LordRegistration.html"><strong>Lord Registration</strong></a></li>
+<li><a href="TenantRegistration.html"><strong>Tenant Registration</strong></a></li>
+<li><a href="Lords&Tenants.html"><strong>Lords&Tenants</strong></a></li>
+
+</ul>
+</nav>
+<figure>
+<img class="image" src="i.jpg" alt="Indorikart logo"style="float:right;height:16em;width:22em;" >
+
+</figure>
+
+<p style="color:black;font-size:1.5em;width:60%;margin-top:2%;"class="Margin"><strong>Are You Looking For <span style="color:black;font-size:2em;">Tenant</span>...?</br>
+	  You Are At Right Place</strong></p>	
+<p style="color:black;font-size:1.5em;margin-top:2%;width:60%;"class="Margin"><strong>We aspire to evolve our platform to the biggest online place for lords and tenants. You are looking for a room or you are not getting the right tenants for your house, then we have something better in our kitty.</strong> </p>
+       <p style="color:black;font-size:1.5em;width:60%;"class="Margin"><strong>New to the city? Need a place? Prices too high? Space too low? Well, home�s a place you need to relax. Why compromise? Checkout rent outs in a location of your choice, at affordable priced and amenities. And Hey! Upload your space and prices @ IndoriKart.com</strong></p>
+
+
+
+
+<form >
+  
+<fieldset style="width:30%;background-color:azure;margin-left:15%;">
+<legend style="color:black;font-size:2em;text-weight:bold;">Lord Registration Form</legend>
+
+
+<input type="text"  name="Lord's name" maxlength="20"  placeholder="what is your name?" style="height:2em;" >	<br><br>	  
+<input type="text"  name="address" maxlength="20"  placeholder="your address?" style="height:2em;"><br>	<br>
+<input type="text"  name="mobile_number" maxlength="20"  placeholder=" your mobile number?"style:"height:2em;" >	
+<p>
+<select name="fore"  maxlength="100" style="height:2em;">
+<option placeholder="For">Available For</option>
+ <option placeholder="Family">Family</option>
+    <option placeholder="Boys">Boys</option>
+ <option placeholder="Girls">Girls</option>
+<option placeholder="For all">For All</option>
+<option placeholder="GovtEmp">Govt. Employee</option>
+</select>
+</p>
+<p>
+<textarea name="comments" cols="35" row="8" maxlength="1000"style="height:2em;">
+Details and Expectations
+
+</textarea>
+
+</p>
+<input name="verif_box" type="text" id="verif_box" placeholder="Type Verification Code" class="form-control"style="height:2em;"/>
+<br><br>
+<img src="verificationimage.php?3526" alt="verification image, type it in the box" width="90" height="40" align="absbottom" /><br />
+
+<!-- if the variable "wrong_code" is sent from previous page then display the error field -->
+<p><input type="submit" value="Submit"class="Button" style="height:2em;width:6em;margin-left:5%;"></p>
+</fieldset>
+
+</body>
+</html>
